@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">JokeActivity</string>
+    <string name="error">Not Funny :( An error happened, Jokes are not available.</string>
 </resources>

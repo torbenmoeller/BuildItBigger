@@ -38,6 +38,7 @@ public class JokeAsyncTaskTest {
             }
         });
         signal.await(10, TimeUnit.SECONDS);
+        assertNotNull(result);
         assertTrue(!result.isEmpty());
     }
 
